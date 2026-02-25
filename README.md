@@ -7,7 +7,7 @@ Card-Based UI: Each job opening is presented in a visually appealing card format
 Job Details: Each card includes the company logo, name, job title, date posted, employment type (full-time/part-time), experience level, salary, and location.
 Component-Based Architecture: The application is structured with reusable React components for the navigation bar, footer, and job cards.
 Static Data: The job opening data is sourced from a local data file (src/Data/Data.js).
-Iconography: Utilizes the lucide-react library for icons.
+Iconography: Utilises the Lucide React library for icons.
 Technical Stack:
 
 Frontend Framework: React
