@@ -1,16 +1,26 @@
-# React + Vite
+This project is a React application built with Vite that displays a list of job openings through cards. This is just a practice-based project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
 
-Currently, two official plugins are available:
+Job Listings: Displays a list of available job positions with details.
+Card-Based UI: Each job opening is presented in a visually appealing card format.
+Job Details: Each card includes the company logo, name, job title, date posted, employment type (full-time/part-time), experience level, salary, and location.
+Component-Based Architecture: The application is structured with reusable React components for the navigation bar, footer, and job cards.
+Static Data: The job opening data is sourced from a local data file (src/Data/Data.js).
+Iconography: Utilizes the lucide-react library for icons.
+Technical Stack:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend Framework: React
+Build Tool: Vite
+Package Manager: npm
+Key Libraries:
+react
+react-dom
+lucide-react
+Project Structure:
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/App.jsx: The main component that assembles the application's layout.
+src/components/card.jsx: Component for displaying individual job opening cards.
+src/components/Navbar.jsx: The top navigation bar component.
+src/components/Footer.jsx: The bottom footer component.
+src/Data/Data.js: A file containing the array of job opening objects.
